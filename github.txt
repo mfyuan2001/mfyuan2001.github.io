@@ -43,5 +43,6 @@ git 是代码管理工具
 
 Github 是基于git实现的代码管理平台
 
+CHAME   域名设置
 
 
