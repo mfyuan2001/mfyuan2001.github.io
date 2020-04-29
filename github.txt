@@ -1,0 +1,47 @@
+git --version 查看git版本
+
+touch name.txt  创建文件
+
+Git init  创建git仓库
+
+git config --global user.name 'yuanmengfan'  设置git 用户的name
+
+git status 查看仓库中的文件状态
+
+Git add . 添加所有文件
+
+Git commit 提交文件  会进入类似vim的页面 在其中添加commit的描述
+
+git commit -m 'change index.html' ‘’中的是描述
+
+vi .gitignore   这个文件可以放在仓库中指定哪个文件不被添加到git仓库中
+
+rm   删除文件
+
+git branch name  创建分支  name :分支名
+
+
+Git checkout name   去到分支中去
+
+git checkout master   去到主分支中 
+
+Git merge name   合并到主分支中去  name：合并的是哪个分支
+
+git remote add origin https://github.com/70rellay/homeWork.git   链接到远程仓库
+
+git remote 查看是否链接
+
+git push 上传文件
+
+git push -u origin master 把仓库中的文件提交到git仓库中
+
+git commit -m 'README.md'   这个文件是再github网页中显示的描述
+
+git clone https://github.com/70rellay/homeWork.git  克隆仓库
+
+git 是代码管理工具
+
+Github 是基于git实现的代码管理平台
+
+
+
