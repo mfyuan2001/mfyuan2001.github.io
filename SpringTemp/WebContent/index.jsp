@@ -30,10 +30,25 @@
 		修改用户信息<input type="submit" value="PUT">
 	</form>
 	测试获取请求参数内容
-	<form action="springmvc/testRequestParam" method="post">
+	<form action="springmvc/testPojo" method="post">
 		id:	<input type="text" name="id"/>	<br/>
 		name:<input type="text" name="name"/>	<br/>
+		city:	<input type="text" name="adress.city"/>	<br/>
+		catt:<input type="text" name="adress.catt"/>	<br/>
 		<input type="submit" value="提交"/> 
+	</form>
+	<a href="springmvc/testRequestHander">testRequestHander</a><br/>
+	<a href="springmvc/testCookieValue">testCookieValue</a><br/>
+	<a href="springmvc/testServletAPI">testServletAPI</a><br/>
+	<a href="springmvc/testModelAndView">testModelAndView</a><br/>
+	<a href="springmvc/testMap">testMap</a><br/>
+	<a href="springmvc/testModel">testModel</a><br/>
+	<a href="springmvc/testModelMap">testModelMap</a><br/>
+	
+	<form action="springmvc/testModelAttribute">
+		id:	<input type="text" name="id" value="101"/>	<br/>
+		name:<input type="text" name="name" value="tom"/>	<br/>
+		<input type="submit" value="UPDATE"/> 
 	</form>
 </body>
 </html>
