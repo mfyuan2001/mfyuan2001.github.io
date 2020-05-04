@@ -4,7 +4,6 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -182,4 +181,14 @@ public class Handler {
 		System.out.println(account);
 		return targetPage;
 	}
+	@RequestMapping("/testViewAndViewResolver")
+	public String testViewAndViewResolver() {
+		System.out.println("this is testViewAndResolver");
+		return targetPage;
+	}
+	@RequestMapping("/testABC")
+	public String testABC() {
+		return "a";
+	}
+	
 }

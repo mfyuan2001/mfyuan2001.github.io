@@ -50,5 +50,8 @@
 		name:<input type="text" name="name" value="tom"/>	<br/>
 		<input type="submit" value="UPDATE"/> 
 	</form>
+	<br/>
+	<a href="springmvc/testViewAndViewResolver">testViewAndViewResolver</a>
+
 </body>
 </html>
