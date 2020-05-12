@@ -15,7 +15,6 @@ public class MyView implements View{
 		// TODO Auto-generated method stub
 		return "text/html";
 	}
-
 	@Override
 	public void render(Map<String, ?> model, HttpServletRequest request, HttpServletResponse response)
 			throws Exception {

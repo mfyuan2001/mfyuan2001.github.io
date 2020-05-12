@@ -186,9 +186,9 @@ public class Handler {
 		System.out.println("this is testViewAndResolver");
 		return targetPage;
 	}
+	
 	@RequestMapping("/testABC")
 	public String testABC() {
 		return "a";
 	}
-	
 }

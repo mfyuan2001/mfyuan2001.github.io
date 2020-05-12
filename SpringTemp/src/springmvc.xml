@@ -23,8 +23,9 @@
 	<bean class="org.springframework.web.servlet.view.BeanNameViewResolver">
 		<property name="order" value="100"></property>
 	</bean>
+	
 	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="abc"></property>
+			<property name="basename" value="abc"></property>
 	</bean>
 	<mvc:view-controller path="/abcdefg" view-name="a"/>
 	<mvc:view-controller path="/myView" view-name="myView"/>
